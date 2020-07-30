@@ -1,0 +1,49 @@
+.sett-header1 {
+    background-image:url('/Settings1.jpg') ;
+    background-size: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .callsett-header1 {
+    background-image:url('/InCallSettings.jpg') ;
+    background-size: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .back-button {
+    position: absolute;
+    top: 3.75vh;
+    left: 38vw;
+    border:black;
+    border-style: solid;
+    width: 8vw;
+    height: 4.5vh;
+  
+  
+  }
+  .call-back-button {
+    position: absolute;
+    top: 2.75vh;
+    left: 37.5vw;
+    border:black;
+    border-style: solid;
+    width: 25vw;
+    height: 5.5vh;
+  
+  
+  }
