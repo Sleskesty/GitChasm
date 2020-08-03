@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image:url('/FCC.jpg') ;
+  background-size: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-button {
+  position: absolute;
+  top: 63vh;
+  left: 52vw;
+  border:black;
+  border-style: solid;
+  width: 8vw;
+  height: 3.5vh;
+
+
+}
+.call-header {
+  background-image:url('/InCall.jpg') ;
+  background-size: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.contact-button {
+  position: absolute;
+  top: 90vh;
+  left: 48vw;
+  border:black;
+  border-style: solid;
+  width: 3vw;
+  height: 5vh;
+
+
+}

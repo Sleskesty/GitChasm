@@ -1,0 +1,24 @@
+.allcontacts-header {
+    background-image:url('/ContactsAll.jpg') ;
+    background-size: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .dialer-button {
+    position: absolute;
+    top: 89vh;
+    left: 54vw;
+    border:black;
+    border-style: solid;
+    width: 3vw;
+    height: 6vh;
+  
+  
+  }
